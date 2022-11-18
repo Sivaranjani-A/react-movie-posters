@@ -1,0 +1,31 @@
+.App{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2.5rem;  
+  
+}
+body{  
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);  
+}
+.movie-pic{ 
+  height: 300px;
+  width:300px ;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+.movie-pic:hover{
+  transform: scale(1.1);
+}
+.movie-details{
+  width: 300px;
+  font-size: .9rem;
+  text-align: left;
+  padding-left: 2.5rem;
+}
+.movie-name span{
+  font-family: roboto;
+  font-weight: lighter;  
+}
